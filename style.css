@@ -7,3 +7,26 @@ h1{
 .color{
     color: orange;
 }
+section{
+    display: flex;
+    
+    
+}
+.width{
+    width: 50%;
+    padding: 5%;
+}
+.width img{
+    width: 100%;
+}
+.width p{
+    text-align: justify;
+}
+.Link-button{
+    text-decoration: none;
+    background-image: linear-gradient(red, yellow, blue);
+    padding: 10px 40px;
+    color:maroon;
+    font-weight: 700;
+    border-radius: 5px;
+}
