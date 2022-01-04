@@ -58,3 +58,17 @@ h1{
     background-repeat: no-repeat;
     background-position: left;
 }
+#exp-web-shadow1{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, yellow, blue);
+    border-image-slice: 1;
+}
+#exp-web-shadow{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, blue, rgb(0, 255, 128));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color: brown;
+}
