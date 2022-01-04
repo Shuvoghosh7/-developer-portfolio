@@ -8,15 +8,15 @@ h1{
 .color{
     color: orange;
 }
-section{
+.fexibale-container{
     display: flex;
     margin-bottom: 150px;
-    
-    
+     
 }
 .width{
     width: 50%;
     padding: 5%;
+   
 }
 .width img{
     width: 100%;
@@ -41,4 +41,20 @@ section{
     background-image:url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.width_shadow{
+    width: 50%;
+    padding: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    box-shadow: 10px 10px 40px grey;
+}
+.width_shadow p{
+    text-align: justify;
+    padding-right: 60px;
+}
+.Experience_area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
